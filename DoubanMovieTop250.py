@@ -1,15 +1,11 @@
 # -*- codeing = utf-8 -*-
-# @Time : 2020/12/9 19:55
-# @Author : Lucidity
-# @File : spider(douban).py
-# @Software: PyCharm
 # mainURL:https://movie.douban.com/top250
+
 import re  # 正则表达式，进行文字匹配
 import urllib.error  # 制定URL，获取网页数据
 import urllib.request
 import xlwt  # 进行excel操作
 from bs4 import BeautifulSoup  # 网页解析，获取数据
-
 
 # 主函数
 def main():
